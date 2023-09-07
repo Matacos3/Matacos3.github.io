@@ -87,7 +87,7 @@ header h3{
 }
 
 h3{
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 300;
   margin: 0 0 10px 0;
 }
@@ -120,6 +120,7 @@ strong{
 
 .section-infos-container h3{
   margin: 0 40px;
+  font-size:2rem;
 }
 .presentation{
   background: rgb(1, 50, 75);
@@ -216,14 +217,14 @@ strong{
 }
 
 h4{
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 600;
   margin: 10px 0 10px 0;
 }
 
 h5{
   font-family: "Garaita";
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0 0 10px 0;
 }
@@ -362,6 +363,7 @@ footer li{
 
   }
 
+  .axis p,
   p{
     font-size: 1.1rem;
   }
