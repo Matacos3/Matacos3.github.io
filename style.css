@@ -1,0 +1,353 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url(assets/Fonts/GARA.TTF);
+}
+
+@font-face{
+  font-family: "Garaita";
+  src: url(assets/Fonts/GARAIT.TTF);
+}
+
+body{
+  font-family: "Garamond", sans-serif;
+}
+
+a,
+a:visited{
+  text-decoration:underline;
+  color: black;
+}
+.presentation,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container{
+  max-width: 1100px;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.container{
+  margin: 20px 0;
+}
+
+header{
+  background: url(assets/Images/Image_livre.jpg) center/cover ;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+}
+
+.text-container{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+h1{
+  color: whitesmoke;
+  font-size: 4.5rem;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+h2{
+  font-family: "Garaita";
+  color: whitesmoke;
+  font-weight: 300;
+  font-size: 2.5rem;
+  letter-spacing: 1,5px;
+  margin-top:30px;
+  margin-right:20px;
+  margin-left: 20px;
+
+}
+
+header h3{
+  color: black;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+h3{
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+}
+p{
+  margin-bottom: 5px;
+  text-align: justify;
+  line-height:20px;
+  font-size: 1.2rem;
+}
+
+strong{
+  /* color: skyblue; */
+  font-family: "Garaita";
+  font-weight:lighter;
+}
+
+.section-infos{
+  min-height: 5vh;
+  background: #d9e7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-infos-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-infos-container h3{
+  margin: 0 40px;
+}
+.presentation{
+  background: rgb(1, 50, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.presentation-container{
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+  margin: 0 30px;
+}
+.presentation-container .container{
+  color: whitesmoke;
+  margin-right: 30px;
+}
+
+.presentation .img-container{
+  min-height: 30vh;
+  background: url(assets/Images/Photo\ n-clique.jpg) center/cover ;
+}
+
+.section-2{
+  background: #d9e7f6;
+
+}
+
+.section-2 .section-container{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+.section-2 .img-container {
+  min-height: 600px;
+  background: url(assets/Images/multi_matiere.jpg) center/cover no-repeat;
+  margin-right: 20px;
+}
+
+.section-3{
+  background: rgb(1, 50, 75);
+  color: whitesmoke;
+}
+.section-3 .section-container{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 60% 40%;
+}
+
+.section-3 .img-container{
+  min-height: 700px;
+  margin-left:20px;
+  background: url(assets/Images/Précepteur.JPG) center/cover ;
+}
+
+.section-4 {
+  background: whitesmoke ;
+}
+
+.section-4 .section-container{
+  padding: 20px 0;
+}
+.axis-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+
+
+.axis{
+  padding: 10px;
+  
+}
+
+.axis p{
+  font-size: 1.1rem;
+}
+
+
+.axis-content-1{
+  display: grid;
+  min-height: 50vh;
+  grid-template-rows: 35% 65%;
+  
+}
+
+.axis-content-2{
+  display: grid;
+  min-height: 75vh;
+  grid-template-rows: 30% 70%;
+  
+}
+
+h4{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 10px 0 10px 0;
+}
+
+h5{
+  font-family: "Garaita";
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+h6{
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 10px 0;
+
+}
+
+li{
+  list-style:decimal;
+}
+
+
+
+.axis-measer{
+  margin: 10px 0 10px 0;
+  
+}
+
+.section-5{
+  background: rgb(1, 50, 75);
+  color: whitesmoke;
+}
+
+.section-5 .section-container{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 60% 40%;
+}
+
+.section-5 .img-container{
+  height: 600px;
+  margin-left: 30px;
+  background: url(assets/Images/pages.jpg) center/cover;
+}
+
+footer{
+  background: #d9e7f6;
+  padding: 25px 0 25px 0;
+}
+
+footer .section-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer .tarif{
+  border-right: solid 1px ;
+  padding-right: 5px;
+}
+
+footer li{
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.contact{
+  margin-left: 10px;
+}
+
+.contact h5{
+  margin:20px 0 10px 0;
+
+}
+
+
+@media screen and (max-width:1080px) {
+  .axis-container,
+  .axis-content-1,
+  .axis-content-2,
+  .axis{
+    display: block;
+    min-height: 100px;
+  }
+  .section-infos-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-infos-container h3{
+    font-size: 1.4rem;
+  }
+} 
+
+@media screen and (max-width:990px) {
+  header .text-container{
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:650px) {
+
+  h1{
+    font-size: 3.5rem;
+  }
+
+  .section-2 .section-container,
+  .section-3 .section-container,
+  .section-5 .section-container,
+  .presentation-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .presentation .img-container{
+    margin: 10px 0;
+    min-width: 300px;
+    max-height: 500px;
+  }
+
+  .section-container .img-container{
+    margin: 10px 0;
+    width: 400px
+
+  }
+
+
+}
