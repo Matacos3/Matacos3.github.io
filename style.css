@@ -87,15 +87,15 @@ header h3{
 }
 
 h3{
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 300;
   margin: 0 0 10px 0;
 }
 p{
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   text-align: justify;
-  line-height:20px;
-  font-size: 1.2rem;
+  line-height:25px;
+  font-size: 1.4rem;
 }
 
 strong{
@@ -199,14 +199,12 @@ strong{
 }
 
 .axis p{
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 
 .axis-content-1{
-  display: grid;
-  min-height: 50vh;
-  grid-template-rows: 35% 65%;
+  display: block;
   
 }
 
@@ -218,20 +216,20 @@ strong{
 }
 
 h4{
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin: 10px 0 10px 0;
 }
 
 h5{
   font-family: "Garaita";
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 400;
   margin: 0 0 10px 0;
 }
 
 h6{
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 300;
   margin: 10px 0;
 
@@ -241,7 +239,10 @@ li{
   list-style:decimal;
 }
 
-
+.axis-important,
+.axis-measer{
+  min-height: 300px;
+}
 
 .axis-measer{
   margin: 10px 0 10px 0;
@@ -314,6 +315,12 @@ footer li{
   .section-infos-container h3{
     font-size: 1.4rem;
   }
+
+  .axis-important,
+  .axis-measer{
+    min-height: 1px;
+  }
+
 } 
 
 @media screen and (max-width:990px) {
@@ -321,12 +328,17 @@ footer li{
     display: block;
   }
 
+  
 }
 
 @media screen and (max-width:650px) {
 
   h1{
     font-size: 3.5rem;
+  }
+  
+  .img-container{
+    display: none;
   }
 
   .section-2 .section-container,
@@ -338,6 +350,7 @@ footer li{
   }
 
   .presentation .img-container{
+    display: block;
     margin: 10px 0;
     min-width: 300px;
     max-height: 500px;
